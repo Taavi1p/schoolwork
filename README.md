@@ -1,6 +1,6 @@
 # schoolwork
 
-Kooli ülesanded Pythonis ja Javas
+Python'i ülesanded
   
 17.09 - unfinished
 
