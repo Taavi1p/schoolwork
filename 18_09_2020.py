@@ -1,14 +1,14 @@
+kujund = input("Kujundi nimi: ").lower()
 
-kujund = input("Kujundi nimi: ")
 
-while kujund != "Ruut" and kujund != "Ristkülik" and kujund != "Ring" and kujund != "Kolmnurk":
+while kujund != "ruut" and kujund != "ristkülik" and kujund != "ring" and kujund != "kolmnurk":
     kujund = input("Sisesta päris kujund: ")
 
 suurus = 0
 laius = 0
 pikkus = 0
 
-if (kujund == "Ruut" or kujund == "Kolmnurk" or kujund == "Ring"):
+if (kujund == "ruut" or kujund == "kolmnurk" or kujund == "ring"):
     suurus = int(input("suurus: "))
     while (suurus <= 0):
         suurus = int(input("sisesta positiivne arv: "))
